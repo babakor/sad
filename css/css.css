@@ -1,0 +1,58 @@
+@font-face {
+  font-family:"Cairo-Medium";
+  src: url(../Cairo-Medium.ttf);
+}
+body{
+  font-family:"Cairo-Medium";
+  margin: 0;
+}
+p{
+  font-weight: bolder;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+:root{
+  --towmain-color:#33d1cc;
+}
+.navbar-toggler{
+  border-color: white;
+  box-shadow: none;
+}
+.navbar-toggler:focus{
+  border-color: var(--towmain-color);
+  box-shadow: none;
+}
+.navbar-nav .nav-link:hover{
+  color: var(--towmain-color) 
+}
+.ser{
+  color: #33d1cc;
+  border-right: 2px solid var(--towmain-color);
+}
+.btn{
+  background-color: var(--towmain-color);
+}
+.landing i{
+  font-size: 100px;
+  color: #33d1cc;
+}
+.footer h4{
+  color: var(--towmain-color);
+}
+.footer .row a:hover{
+  color: var(--towmain-color);
+  cursor: pointer;
+}
+.footer .row i{
+  font-size: 35px;
+  
+}
+.footer .row i:hover{
+  color: var(--towmain-color);
+}
